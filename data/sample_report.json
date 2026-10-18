@@ -1,0 +1,13 @@
+{
+  "id": "VDR-2026-001",
+  "title": "Unauthenticated access to customs manifest API",
+  "reporter": "anonymous@bug2pay.example",
+  "target": "api.douanes.example/v1/manifests",
+  "severity_ai": "high",
+  "severity_human": null,
+  "status": "pending_human_review",
+  "submitted": "2026-10-18T18:00:00Z",
+  "evidence": ["screenshot.png", "curl_log.txt"],
+  "repro_steps": "GET /v1/manifests without Authorization header returns 200 with 14 records.",
+  "bounty_scale": {"critical": "$5,000", "high": "$2,000", "medium": "$500", "low": "$100"}
+}
